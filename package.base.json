@@ -1,0 +1,16 @@
+{
+  "_comment": "Central source of truth for shared dependency versions across all Bayzat microapps. Edit a version here and every app picks it up on its next deploy (no per-app changes needed). Ranges resolve to the newest matching version at build time; pin to an exact version to freeze.",
+  "dependencies": {
+    "@bayzatapps/microapp-core": "^1.0.48",
+    "@eslint/eslintrc": "^3.3.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.7",
+    "next": "^16.2.4",
+    "openapi-fetch": "^0.17.0",
+    "react": "~19.2.5",
+    "react-dom": "~19.2.5"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.4.4"
+  }
+}
